@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="vbh_perf_test_query_block_client_service.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="appmanager.cpp" />
+    <ClCompile Include="trade_service.cpp" />
+    <ClCompile Include="query_user_service.cpp" />
+    <ClCompile Include="load_user_key.cpp" />
+    <ClCompile Include="query_trade_service.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vbh_perf_test_comm\vbh_perf_test_comm_id_def.h">
+      <Filter>vbh_perf_test_comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vbh_perf_test_comm\vbh_perf_test_comm_msg_def.h">
+      <Filter>vbh_perf_test_comm</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_perf_test_query_block_client_service.h" />
+    <ClInclude Include="appmanager.h" />
+    <ClInclude Include="trade_service.h" />
+    <ClInclude Include="query_user_service.h" />
+    <ClInclude Include="load_user_key.h" />
+    <ClInclude Include="query_trade_service.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="vbh_perf_test_comm">
+      <UniqueIdentifier>{dc6aa7ae-309c-48b8-8f82-01d2446f5aac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
